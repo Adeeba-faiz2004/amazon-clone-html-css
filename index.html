@@ -1,103 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Store</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Clone</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-<header class="navbar">
+<header>
 
-    <div class="logo"></div>
+<div class="navbar">
 
-    <div class="nav-search">
-        <input placeholder="Search products">
-        <button>Search</button>
-    </div>
+<div class="navlogo border">
+<div class="logo"></div>
+</div>
 
-    <div class="nav-links">
-        <p>Account</p>
-        <p>Orders</p>
-        <p>Cart</p>
-    </div>
+<div class="nav-add border">
+<p class="add-first">Deliver to</p>
+<div class="add-icon">
+<i class="fa-solid fa-location-dot"></i>
+<p class="add-sec">Pakistan</p>
+</div>
+</div>
+
+<div class="nav-search">
+<select class="search-select">
+<option>All</option>
+</select>
+<input placeholder="Search Amazon" class="search-input">
+<div class="search-icon">
+<i class="fa-solid fa-magnifying-glass"></i>
+</div>
+</div>
+
+<div class="nav-signin border">
+<p><span>Hello, sign in</span></p>
+<p class="nav-sec">Accounts & Lists</p>
+</div>
+
+<div class="nav-return border">
+<p><span>Returns</span></p>
+<p class="nav-sec">& Orders</p>
+</div>
+
+<div class="nav-cart border">
+<i class="fa-solid fa-cart-shopping"></i>
+Cart
+</div>
+
+</div>
+
+<div class="panel">
+<div class="panel-all">
+<i class="fa-solid fa-bars"></i> All
+</div>
+
+<div class="panel-opts">
+<p>Today's Deals</p>
+<p>Customer Services</p>
+<p>Registry</p>
+<p>Gift Cards</p>
+<p>Sells</p>
+</div>
+
+<div class="panel-deals">
+Shop deals in Electronics
+</div>
+</div>
 
 </header>
 
+<div class="hero-section">
+<div class="hero-msg">
+<p>You are on amazon.com. Shop millions of products.</p>
+</div>
+</div>
 
-<!-- HERO SECTION -->
-<section class="hero-section">
-    <div class="hero-text">
-        <h2>Welcome to Our Store</h2>
-        <p>Discover amazing products at best prices</p>
-    </div>
-</section>
+<!-- SHOP SECTION -->
+<div class="shop-section">
 
+<div class="box">
+<div class="box-content">
+<h2>Pick Gifts</h2>
+<div class="box-img" style="background-image:url('photo/gifts.jpg');"></div>
+<p>See more</p>
+</div>
+</div>
 
-<!-- PRODUCTS -->
-<section class="shop-section">
+<div class="box">
+<div class="box-content">
+<h2>Home Decors</h2>
+<div class="box-img" style="background-image:url('photo/decor.jpg');"></div>
+<p>See more</p>
+</div>
+</div>
 
-    <div class="box">
-        <div class="box-img" style="background-image:url('photo/p1.jpg');"></div>
-        <h3>Fashion</h3>
-    </div>
+<div class="box">
+<div class="box-content">
+<h2>Refreshment</h2>
+<div class="box-img" style="background-image:url('photo/refresh.jpg');"></div>
+<p>See more</p>
+</div>
+</div>
 
-    <div class="box">
-        <div class="box-img" style="background-image:url('photo/p2.jpg');"></div>
-        <h3>Electronics</h3>
-    </div>
+<div class="box">
+<div class="box-content">
+<h2>Fashion</h2>
+<div class="box-img" style="background-image:url('photo/stylish.jpg');"></div>
+<p>See more</p>
+</div>
+</div>
 
-    <div class="box">
-        <div class="box-img" style="background-image:url('photo/p3.jpg');"></div>
-        <h3>Home Decor</h3>
-    </div>
+</div>
 
-    <div class="box">
-        <div class="box-img" style="background-image:url('photo/p4.jpg');"></div>
-        <h3>Accessories</h3>
-    </div>
-
-</section>
-
-
-<!-- FOOTER -->
 <footer>
 
-    <div class="foot-top">
-        Back to top
-    </div>
+<div class="foot-panel1">Back to Top</div>
 
-    <div class="foot-main">
-        <div>
-            <h4>Get to Know Us</h4>
-            <p>About</p>
-            <p>Careers</p>
-            <p>Contact</p>
-        </div>
+<div class="foot-panel2">
+<ul>
+<p>Get to Know Us</p>
+<li><a>Careers</a></li>
+<li><a>Blogs</a></li>
+<li><a>About</a></li>
+</ul>
 
-        <div>
-            <h4>Help</h4>
-            <p>Support</p>
-            <p>Returns</p>
-            <p>Shipping</p>
-        </div>
+<ul>
+<p>Make Money With Us</p>
+<li><a>Sell products</a></li>
+<li><a>Affiliate</a></li>
+</ul>
+</div>
 
-        <div>
-            <h4>Follow Us</h4>
-            <p>Facebook</p>
-            <p>Instagram</p>
-            <p>Twitter</p>
-        </div>
-    </div>
+<div class="foot-panel3">
+<div class="logo"></div>
+</div>
 
-    <div class="foot-bottom">
-        © 2025 Online Store
-    </div>
+<div class="foot-panel4">
+<div class="pages">
+<a>Conditions</a>
+<a>Privacy</a>
+</div>
+<div class="copyright">
+© Amazon Clone
+</div>
+</div>
 
 </footer>
 
 </body>
-            </html>
+    </html>
