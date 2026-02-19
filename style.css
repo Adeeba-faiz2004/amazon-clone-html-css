@@ -5,7 +5,6 @@ box-sizing:border-box;
 }
 
 /* NAVBAR */
-
 .navbar{
 height:60px;
 background:#0f1111;
@@ -37,7 +36,6 @@ border:1.5px solid white;
 }
 
 /* ADDRESS */
-
 .add-first{
 color:#ccc;
 font-size:0.85rem;
@@ -51,7 +49,6 @@ align-items:center;
 }
 
 /* SEARCH */
-
 .nav-search{
 display:flex;
 width:620px;
@@ -80,7 +77,6 @@ background:#febd68;
 }
 
 /* PANEL */
-
 .panel{
 height:40px;
 background:#222f3d;
@@ -88,6 +84,7 @@ display:flex;
 align-items:center;
 justify-content:space-evenly;
 color:white;
+flex-wrap:wrap;
 }
 
 .panel-opts p{
@@ -96,7 +93,6 @@ margin-left:15px;
 }
 
 /* HERO */
-
 .hero-section{
 background-image:url("photo/main.jpg");
 background-size:cover;
@@ -111,10 +107,10 @@ justify-content:center;
 background:white;
 padding:10px;
 margin-bottom:25px;
+text-align:center;
 }
 
 /* SHOP */
-
 .shop-section{
 display:flex;
 flex-wrap:wrap;
@@ -143,7 +139,6 @@ margin:0 1rem;
 }
 
 /* FOOTER */
-
 .foot-panel1{
 background:#374758;
 color:white;
@@ -159,6 +154,7 @@ color:white;
 display:flex;
 justify-content:space-evenly;
 padding:20px;
+flex-wrap:wrap;
 }
 
 ul{
@@ -181,21 +177,25 @@ text-align:center;
 padding:20px;
 }
 
-/* ===================== */
-/* RESPONSIVE */
-/* ===================== */
+/* =========================
+   RESPONSIVE
+========================= */
 
 @media(max-width:900px){
-
 .nav-search{
 width:100%;
-margin-top:8px;
+margin-top:5px;
 }
 
 .box{
-width:45%;
+width:48%;
+height:auto;
 }
 
+.panel-opts{
+width:100%;
+margin-top:5px;
+}
 }
 
 @media(max-width:600px){
@@ -206,7 +206,6 @@ align-items:center;
 }
 
 .box{
-width:90%;
+width:95%;
 }
-
     }
