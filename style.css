@@ -250,80 +250,32 @@ height:250px;
         width: 100%;
     }
 
-}
-/* MOBILE RESPONSIVE FIX */
-@media (max-width: 768px) {
+}@media (max-width: 768px){
 
-    /* NAVBAR */
-    .navbar{
-        flex-wrap: wrap;
-        height: auto;
-        padding: 10px 5px;
-        gap: 8px;
-        justify-content: center;
-    }
-
-    .nav-search{
-        width: 95%;
-        order: 3; /* search neeche full width */
-    }
-
-    .navlogo,
-    .nav-add,
-    .nav-signin,
-    .nav-return,
-    .nav-cart{
-        flex-shrink: 0;
-    }
-
-
-    /* PANEL */
     .panel{
-        flex-wrap: wrap;
-        height: auto;
-        padding: 8px 5px;
-        gap: 8px;
-        justify-content: center;
-        text-align: center;
+        height: 40px;              /* fixed compact height */
+        overflow-x: auto;          /* side scroll */
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding: 0 5px;
+        align-items: center;
     }
 
     .panel-opts{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
+        display: inline-flex;
+        flex-wrap: nowrap;         /* wrap band */
+        gap: 15px;
+        width: auto;
     }
 
     .panel-opts p{
+        white-space: nowrap;
         margin: 0;
+        font-size: 0.8rem;
     }
 
     .panel-deals{
-        width: 100%;
-        text-align: center;
-    }
-
-
-    /* HERO IMAGE */
-    .hero-section{
-        height: 200px;
-        background-size: cover;
-    }
-
-
-    /* SHOP BOXES */
-    .box{
-        width: 90%;
-    }
-
-
-    /* FOOTER */
-    .foot-panel2{
-        flex-wrap: wrap;
-        height: auto;
-        padding-bottom: 20px;
-        text-align: center;
+        display: none;             /* optional — height kam karne ke liye */
     }
 
        }
