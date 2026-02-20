@@ -185,6 +185,69 @@ width:100%;
 
 .hero-section{
 height:250px;
-}
-
+} 
    }
+/* ============================= */
+/* MOBILE RESPONSIVE FIX ONLY */
+/* ============================= */
+
+@media screen and (max-width: 768px) {
+
+    /* NAVBAR wrap properly */
+    .navbar{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        gap: 8px;
+    }
+
+    /* SEARCH BAR full width */
+    .nav-search{
+        width: 100%;
+        order: 3;
+    }
+
+    /* PANEL wrap instead of overlap */
+    .panel{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 8px 0;
+        text-align: center;
+    }
+
+    .panel-opts{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    /* HERO image proper fit */
+    .hero-section{
+        height: 220px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* SHOP boxes single column */
+    .box{
+        width: 90%;
+    }
+
+    /* IMAGES proper fit */
+    .box-img{
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* FOOTER columns wrap */
+    .foot-panel2{
+        flex-wrap: wrap;
+        height: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .foot-panel2 ul{
+        width: 100%;
+    }
+
+}
